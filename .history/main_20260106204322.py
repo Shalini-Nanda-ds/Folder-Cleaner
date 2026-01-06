@@ -35,7 +35,7 @@ EXTENSION_MAP = {
     ".winmd" : "System",
 
 }
-items = os.listdir(TARGET_FOLDER)
+items = os.listdir(TARGET_FILE)
 # extension_count = {}
 for item in items:
     source_path = os.path.join(TARGET_FOLDER,item)

@@ -62,9 +62,9 @@ for item in items:
 
         print(item,"->",folder_name)       
 
-        shutil.move(
-            source_path,
-            destination_path
-        )    
+        # shutil.move(
+        #     source_path,
+        #     os.path.join(destination_folder,item)
+        # )    
 
-      
+        # print(item,"->",folder_name)

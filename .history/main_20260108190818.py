@@ -53,12 +53,6 @@ for item in items:
 
         if not os.path.exists(destination_folder):
             os.makedirs(destination_folder)
-            
-        destination_path = os.path.join(destination_folder,item)
-
-        if os.path.exists(destination_path):
-            print("SKIPPED (alresdy exists):",item)
-            continue    
 
         print(item,"->",folder_name)       
 
